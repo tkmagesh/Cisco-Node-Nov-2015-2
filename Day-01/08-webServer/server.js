@@ -40,7 +40,6 @@ var server = http.createServer(function(req, res){
             res.write(result.toString());
             res.end();
         });
-
     } else {
         res.statusCode = 404;
         res.end();
